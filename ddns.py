@@ -9,7 +9,8 @@ load_dotenv()
 email = os.getenv('EMAIL')
 key = os.getenv('KEY')
 certtoken = os.getenv('CERTTOKEN')
-domain = 'splaq.us'
+domain = os.getenv('DOMAIN')
+
 def getIp():
     return requests.get('http://ipv4.icanhazip.com').text
 
