@@ -1,4 +1,4 @@
-## What is this.
+## What is this?
 Yet another dynamic dns app for cloudflare.
 
 ## How to use.
