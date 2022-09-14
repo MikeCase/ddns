@@ -1,6 +1,11 @@
 ## What is this?
 Yet another dynamic dns app for cloudflare.
 
+## What you need.
+A cloudflare account with an api token.
+
+![API Token Setup](apitokensetup.png)
+
 ## How to use.
 git clone https://github.com/MikeCase/ddns
 cd ddns/
