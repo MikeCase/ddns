@@ -19,7 +19,9 @@ python ddns.py
 
 ## Running from a crontab
 Witout Log
+
 0 */6 * * * ~/.config/venv/ddns/bin/python ~/ddns/ddns.py >>/dev/null 2&>1
 
-with logfile
+With Log
+
 0 */6 * * * ~/.config/venv/ddns/bin/python ~/ddns/ddns.py >> ~/ddns/ddns.log 2&>1
