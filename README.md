@@ -22,4 +22,4 @@ Witout Log
 0 */6 * * * ~/.config/venv/ddns/bin/python ~/ddns/ddns.py >>/dev/null 2&>1
 
 with logfile
-0 */6 * * * ~/.config/venv/ddns/bin/python ~/ddns/ddns.py >>~/ddns/ddns.log 2&>1
+0 */6 * * * ~/.config/venv/ddns/bin/python ~/ddns/ddns.py >> ~/ddns/ddns.log 2&>1
