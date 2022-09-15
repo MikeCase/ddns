@@ -73,7 +73,5 @@ def main():
                 updateRecord(cf, record, zone)
 
 
-
-
 if __name__ == "__main__":
     main()
